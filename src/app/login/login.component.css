@@ -1,0 +1,51 @@
+.login-container {
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes de espaçamento já feitos com Bootstrap (mb-3, mt-4, etc.) */
+
+.login-container h3 {
+  text-align: center;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.login-container .form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.login-container .btn {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+
+.login-container a.btn {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .login-container .btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .login-container .d-md-block {
+    display: block !important;
+  }
+
+  .login-container .me-2 {
+    margin-right: 0 !important;
+    margin-bottom: 0.5rem;
+  }
+}

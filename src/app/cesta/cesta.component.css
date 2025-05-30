@@ -1,0 +1,9 @@
+.cesta-compras {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cesta-compras table img {
+  object-fit: cover;
+  border-radius: 0.4rem;
+}

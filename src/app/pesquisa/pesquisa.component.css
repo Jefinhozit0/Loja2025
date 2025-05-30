@@ -1,0 +1,16 @@
+.pesquisa-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .pesquisa-box {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .pesquisa-box .form-control,
+  .pesquisa-box .btn {
+    width: 100%;
+  }
+}

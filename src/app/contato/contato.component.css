@@ -1,0 +1,12 @@
+.contato-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contato-form h3 {
+  font-weight: 600;
+}
+
+.contato-form .form-check-label {
+  margin-left: 0.3rem;
+}
